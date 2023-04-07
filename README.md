@@ -100,13 +100,3 @@ bot.presentation=Say your name, and succinctly state your purpose. At the end of
 | /reset | Восстанавливает контекст разговора, забывает все предыдущие сообщения, которые вы отправили боту. Его можно использовать только в приватном чате. |
 | /usage | Выводит сумму токенов, использованных во всех разговорах. Это значение не сохраняется и сбрасывается при каждом перезапуске приложения. |
 
-## Настройка разработки
-
-clone the project
-
-`git clone https://github.com/achousa/telegram-gpt-bot`
-
-install dependencies and build
-
-`mvn install`
-
