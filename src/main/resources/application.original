@@ -1,0 +1,27 @@
+# See http://docs.spring.io/spring-boot/docs/current/reference/html/common-application-properties.html
+bot.name=<yourTelegramBotName>
+bot.token=<yourTelegramBotToken>
+bot.presentation=Say yor name and state your purpouse, answer in Russian
+bot.whitelist=
+openai.url=https://api.openai.com/v1/chat/completions
+openai.apikey=<yourGPT_apiTOKEN>
+openai.model=gpt-3.5-turbo
+openai.temperature=0.7
+openai.maxtokens=3000
+#logging.level.root=INFO
+logging.level.org.springframework=ERROR
+logging.level.ru.valkerik.*=INFO
+logging.file.name=GPTbot.log
+logging.pattern.file=%d %p %c{1.} [%t] %m%n
+logging.pattern.console=%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n
+spring.main.show-banner=true
+openai.systemprompt=You are \"GPTbot\" a helpful assistant, you speak Russian.\
+ Here are the things you are an expert at:\n\
+- An excellent consultant in any matter. \n\
+- Writing reports and abstracts.\n\
+- Able to answer questions about what they have read.\n\
+- Able to explain incomprehensible topics. \n\
+- Can write well-formulated e-mails, contracts.\n\
+- The most powerful algorithm for generating text at the moment.
+
+openai.max.message.pool.size=7
