@@ -45,8 +45,6 @@
 | openai.maxtokens | Maximum number of tokens a request can consume | Yes                   |
 | openai.max.message.pool.size | Number of previous messages that are kept in the context of the conversation | Yes                   |
 | openai.systemprompt | This is where you tell the bot, in natural language, what to do, and how to behave | Yes                   |
-| openai.example.1 | This is the first example (in role: content format) | No                    |
-| openai.example.2 | This is the second example (in role: content format) | No                    |
 
 #### Настройка поведения бота
 
