@@ -13,7 +13,7 @@
 
 ## Как использовать
 
-### Предпосылки
+### НАЧАЛО
 
 - У вас должен быть ключ OpenAI API. [get it here](https://platform.openai.com)
 - Вы должны получить токен бота Telegram. [talk to Botfather about it](https://t.me/botfather), ([more about Botfather here](https://t.me/botfather)) кроме токена, обратите внимание на URL-адрес бота.
