@@ -15,9 +15,9 @@
 
 ### НАЧАЛО
 
-- У вас должен быть ключ OpenAI API. [get it here](https://platform.openai.com)
-- Вы должны получить токен бота Telegram. [talk to Botfather about it](https://t.me/botfather), ([more about Botfather here](https://t.me/botfather)) кроме токена, обратите внимание на URL-адрес бота.
-- Вам необходимо установить Java JRE (не менее 11) [download from here](https://adoptium.net/es/installation/#x64_win-jre)
+- У вас должен быть ключ OpenAI API. [получить](https://platform.openai.com)
+- Вы должны получить токен бота Telegram. [написать боту](https://t.me/botfather), ([Botfather](https://t.me/botfather)) кроме токена, обратите внимание на URL-адрес бота.
+- Вам необходимо установить Java JRE (не менее 11)
 - Вам нужен apache maven (только если вы хотите собрать из исходного кода). [download from here](https://maven.apache.org/download.cgi)
 
 ### Установка и запуск
