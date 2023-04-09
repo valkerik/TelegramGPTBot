@@ -295,7 +295,7 @@ public class GptService {
 
         } catch (Exception e) {
             e.printStackTrace();
-            return "Lo siento, algo ha ido mal.";
+            return "Извините, что-то пошло не так. ";
         }
     }
 
