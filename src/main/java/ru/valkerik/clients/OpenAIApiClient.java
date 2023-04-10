@@ -3,6 +3,7 @@
  */
 package ru.valkerik.clients;
 import com.fasterxml.jackson.databind.ObjectMapper;
+import jakarta.annotation.PostConstruct;
 import ru.valkerik.model.request.ChatRequest;
 import ru.valkerik.model.response.ChatResponse;
 import okhttp3.MediaType;
@@ -13,7 +14,6 @@ import okhttp3.Response;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
 
-import javax.annotation.PostConstruct;
 import java.util.concurrent.TimeUnit;
 
 @Service
