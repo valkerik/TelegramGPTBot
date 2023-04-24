@@ -61,14 +61,6 @@
 тем больше у модели контекста разговора, но больше потребление токенов.
 
 
-```
-openai.systemprompt=You are "NameBot" a helpful translator and language assistant.
-openai.example.1=user: How do you say in Spanish: yesterday
-openai.example.2=assistant: In Spanish, we say: ayer
-openai.example.3=user: What language is this: Es ist Zeit zu essen
-openai.example.4=assistant: It is German
-```
-
 Подробнее об этом вы можете прочитать в [openAI api documentation](https://platform.openai.com/docs/guides/chat/introduction)
 
 Свойство презентации настраивает то, как бот представляет себя новому пользователю. 
